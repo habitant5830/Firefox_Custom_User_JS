@@ -176,7 +176,7 @@ user_pref("browser.discovery.enabled", false);
 user_pref("extensions.htmlaboutaddons.recommendations.enabled", false);
 
 // Firefox account sync
-user_pref("identity.fxaccounts.enabled", false);
+user_pref("identity.fxaccounts.enabled", true);
 
 // Browser backup
 user_pref("browser.backup.archive.enabled", false);
