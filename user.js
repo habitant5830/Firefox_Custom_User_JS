@@ -45,7 +45,7 @@ user_pref("toolkit.telemetry.updatePing.enabled", false);
 user_pref("media.autoplay.default", 0);
 
 // Startup page
-user_pref("browser.startup.page", 3);
+user_pref("browser.startup.page", 1);
 
 // Sponsored sites
 user_pref(
