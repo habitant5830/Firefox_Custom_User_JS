@@ -6,6 +6,8 @@ user_pref("toolkit.telemetry.enabled", false);
 user_pref("toolkit.telemetry.unified", false);
 user_pref("datareporting.healthreport.uploadEnabled", false);
 user_pref("app.shield.optoutstudies.enabled", false);
+user_pref("datareporting.policy.dataSubmissionEnabled", false);
+user_pref("datareporting.usage.uploadEnabled", false);
 
 // Media autoplay
 user_pref("media.autoplay.default", 0);
@@ -23,8 +25,15 @@ user_pref(
   false,
 );
 
-// Top stories
+// Top stories and suggestions
 user_pref("browser.newtabpage.activity-stream.feeds.section.topstories", false);
+user_pref(
+  "browser.newtabpage.activity-stream.discoverystream.newSponsoredLabel.enabled",
+  false,
+);
+user_pref("browser.newtabpage.activity-stream.showSponsored", false);
+user_pref("browser.newtabpage.activity-stream.showSponsoredCheckboxes", false);
+user_pref("browser.newtabpage.activity-stream.showSponsoredTopSites", false);
 
 // Normal search suggestions
 user_pref("browser.search.suggest.enabled", true);
@@ -63,6 +72,7 @@ user_pref("browser.ai.control.default", "blocked");
 user_pref("browser.urlbar.suggest.engines", false);
 user_pref("browser.urlbar.suggest.clipboard", false);
 user_pref("browser.urlbar.suggest.topsites", false);
+user_pref("browser.urlbar.sponsoredTopSites", false);
 
 // HTTPS-only-mode
 user_pref("dom.security.https_only_mode", true);
@@ -101,3 +111,20 @@ user_pref(
   false,
 );
 user_pref("browser.discovery.enabled", false);
+user_pref("extensions.htmlaboutaddons.recommendations.enabled", false);
+
+// Firefox account sync
+user_pref("identity.fxaccounts.enabled", false);
+
+// Browser backup
+user_pref("browser.backup.archive.enabled", false);
+user_pref("browser.backup.enabled", false);
+user_pref("browser.backup.scheduled.enabled", false);
+user_pref("browser.backup.restore.enabled", false);
+
+// Preferences in menu
+user_pref("browser.preferences.experimental.hidden", true);
+user_pref("browser.preferences.moreFromMozilla", false);
+
+// Global privacy control
+user_pref("privacy.globalprivacycontrol.enabled", false);
