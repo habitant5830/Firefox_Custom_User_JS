@@ -8,6 +8,38 @@ user_pref("datareporting.healthreport.uploadEnabled", false);
 user_pref("app.shield.optoutstudies.enabled", false);
 user_pref("datareporting.policy.dataSubmissionEnabled", false);
 user_pref("datareporting.usage.uploadEnabled", false);
+user_pref("toolkit.telemetry.archive.enabled", false);
+user_pref("toolkit.telemetry.bhrPing.enabled", false);
+user_pref("toolkit.telemetry.firstShutdownPing.enabled", false);
+user_pref("browser.newtabpage.activity-stream.telemetry", false);
+user_pref(
+  "browser.newtabpage.activity-stream.telemetry.privatePing.enabled",
+  false,
+);
+user_pref(
+  "browser.newtabpage.activity-stream.telemetry.privatePing.inferredInterests.enabled",
+  false,
+);
+user_pref(
+  "browser.newtabpage.activity-stream.telemetry.privatePing.redactNewtabPing.enabled",
+  false,
+);
+user_pref("browser.newtabpage.activity-stream.telemetry.ut.events	", false);
+user_pref("browser.newtabpage.activity-stream.telemetry", false);
+user_pref(
+  "browser.newtabpage.activity-stream.telemetry.privatePing.enabled",
+  false,
+);
+user_pref(
+  "browser.newtabpage.activity-stream.telemetry.redactNewtabPing.enabled",
+  false,
+);
+user_pref("identity.fxaccounts.telemetry.clientAssociationPing.enabled", false);
+user_pref("nimbus.telemetry.targetingContextEnabled", false);
+user_pref("telemetry.fog.init_on_shutdown", false);
+user_pref("toolkit.telemetry.newProfilePing.enabled", false);
+user_pref("toolkit.telemetry.shutdownPingSender.enabled", false);
+user_pref("toolkit.telemetry.updatePing.enabled", false);
 
 // Media autoplay
 user_pref("media.autoplay.default", 0);
@@ -73,12 +105,42 @@ user_pref("browser.urlbar.suggest.engines", false);
 user_pref("browser.urlbar.suggest.clipboard", false);
 user_pref("browser.urlbar.suggest.topsites", false);
 user_pref("browser.urlbar.sponsoredTopSites", false);
+user_pref("browser.urlbar.suggest.addons", false);
+user_pref("browser.urlbar.suggest.amp", false);
+user_pref("browser.urlbar.suggest.mdn", false);
+user_pref("browser.urlbar.suggest.quickactions", false);
+user_pref("browser.urlbar.suggest.quicksuggest.all", false);
+user_pref("browser.urlbar.suggest.quicksuggest.nonsponsored", false);
+user_pref("browser.urlbar.suggest.sports", false);
+user_pref("browser.urlbar.suggest.trending", false);
+user_pref("browser.urlbar.suggest.weather", false);
+user_pref("browser.urlbar.suggest.yelp", false);
+user_pref("browser.urlbar.suggest.yelpRealtime", false);
+user_pref("browser.urlbar.suggest.recentsearches", false);
+user_pref("browser.urlbar.suggest.remotetab", false);
+
+// URL bar placeholder
+user_pref("browser.urlbar.placeholderName", "DuckDuckGo");
+user_pref("browser.urlbar.placeholderName.private", "DuckDuckGo");
 
 // HTTPS-only-mode
 user_pref("dom.security.https_only_mode", true);
 
 // Save password
 user_pref("signon.rememberSignons", false);
+user_pref("signon.rememberSignons", false);
+user_pref("signon.autofillForms", false);
+user_pref("signon.formlessCapture.enabled", false);
+user_pref("signon.capture.inputChanges.enabled", false);
+user_pref("signon.privateBrowsingCapture.enabled", false);
+user_pref("signon.generation.enabled", false);
+user_pref("services.sync.prefs.sync.signon.autofillForms", false);
+user_pref("services.sync.prefs.sync.signon.generation.enabled", false);
+user_pref(
+  "services.sync.prefs.sync.signon.management.page.breach-alerts.enabled",
+  false,
+);
+user_pref("services.sync.prefs.sync.signon.rememberSignons", false);
 
 // Auto-fill and save
 user_pref("signon.autofillForms", false);
